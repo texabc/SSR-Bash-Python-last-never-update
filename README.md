@@ -34,7 +34,7 @@ ShadowsocksR多用户管理脚本（基于官方mujson版本）
     wget http://www.texabc.com/SSR-Bash-Python.zip && unzip SSR-Bash-Python.zip && cd SSR* && bash install.sh && cd && rm SSR-Bash-Python.zip
 
 ## 卸载 ##
-    wget -N --no-check-certificate https://raw.githubusercontent.com/texabc/SSR-Bash-Python/master/uninstall.sh && bash uninstall.sh
+    wget -N --no-check-certificate https://raw.githubusercontent.com/texabc/SSR-Bash-Python/master/uninstall.sh && bash uninstall.sh && rm report.json && rm install.sh && rm uninstall.sh
 
 ## 自检 ##
     wget -N --no-check-certificate https://raw.githubusercontent.com/texabc/SSR-Bash-Python/master/self-check.sh && bash self-check.sh
